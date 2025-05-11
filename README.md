@@ -1,4 +1,6 @@
 After downloaded,extract the Zip file. Then Copy the Subfolder of Saurath HotelBooking and paste it in main drive or anyplace like documents or downloads. 
+Open XAMPP and Start MySql and Apache Server. In MySql go to Admin. and **create Database Hotel_Booking3.** 
+In top SQL Tab will visible click on that and Paste the Everything.sql contents. After Paste and run. It will show the Table of **Users, Hotels, Rooms, Bookings.**
 
 Go to VS Code, Select File tab and Open Folder.Open Saurath HotelBooking.Then go to terminal and split terminal .
         On both terminal >>> cd SaurathHotelBooking. 
