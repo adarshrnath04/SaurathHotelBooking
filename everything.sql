@@ -39,6 +39,9 @@ CREATE TABLE bookings (
   FOREIGN KEY (room_id) REFERENCES rooms(id)
 );
 
+INSERT INTO users (name, email, password) VALUES
+  (Admin, admin@gmail.com, admin123);
+
 INSERT INTO hotels (name, description, rating, location, image_url) VALUES
 ('The Ocean View', 'Beautiful beachside hotel', 4.5, 'Goa', 'https://example.com/ocean.jpg'),
 ('Hilltop Retreat', 'Peaceful mountain escape', 4.2, 'Ooty', 'https://example.com/hilltop.jpg'),
